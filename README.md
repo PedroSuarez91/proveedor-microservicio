@@ -1,3 +1,14 @@
+# Crear proveedor
+
+POST http://localhost:8085/api/v1/proveedores
+
+{
+  "nombre": "Distribuidora EcoMarket",
+  "email": "contacto@ecomarket.cl",
+  "telefono": "+56987654321",
+  "direccion": "Av. Los Carrera 1234, Concepción"
+}
+
 # application.properties
 
 spring.application.name=proveedor-microservicio
